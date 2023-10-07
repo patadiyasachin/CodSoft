@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> My Calculator </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <table border="1" id="tab">
+      <tr >
+        <td colspan="4" id="ans" ></td>
+      </tr>
+
+      <div id="calcbody">
+        <tr>
+          <td><input type="button" value="7" onClick="addNo(this.value)"></td> 
+          <td><input type="button" value="8" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="9" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="/" onClick="addNo(this.value)"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="4" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="5" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="6" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="-" onClick="addNo(this.value)"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="1" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="2" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="3" onClick="addNo(this.value)"></td>
+          <td><input type="button" value="+" onClick="addNo(this.value)"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="c"  onClick="clearAns()"></td>
+          <td><input type="button" value="0"  onClick="addNo(this.value)"></td>
+          <td><input type="button" value="="  onClick="generateAns()"></td>
+          <td><input type="button" value="*"  onClick="addNo(this.value)"></td> 
+        </tr>
+
+      </div>
+    </table>
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>

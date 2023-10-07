@@ -1,0 +1,233 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+	height: 10vh;
+    background-image: linear-gradient(white,yellow  );
+	position: sticky;
+	top: 0;	
+}
+
+.info_header{
+	color: black;
+	float: right;
+    display: flex;
+}
+
+.info_header li{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bolder;
+	list-style: none;
+	color: red;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+	font-family: cursive;
+}
+
+a:hover{
+	color: gray;
+}
+
+.logo_header{
+	width: 40%;
+	height: 10vh;
+}
+
+.logo_header img{
+	width: 20%;
+	height: 5vh;
+	margin: 15px;
+	border-radius:10px;
+}   
+
+.lefahome{
+    width: 50%;
+    height: 90vh;
+    background-color: yellow;
+    float: left;
+}
+
+.righthome{
+    width: 50%;
+    height: 90vh;
+    float: right;
+}
+
+.homepage{
+    height: 90vh;
+}
+
+.forimg{
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	margin-left: 450px;
+	margin-top: 14vh;
+	box-shadow: 0 4px 8px 0 rgba(253, 1, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+}
+
+.forimg img{
+	width: 350px;
+	height: 380px;
+	border-radius: 20px;
+}
+
+.heading{
+	margin-left: 45vh;
+	margin-top: 30vh;
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.leftabout{
+	width: 50%;
+	float: left;
+	height: 100vh;
+	margin-bottom: 30px;
+}
+
+.leftabout img{
+	width: 100%;
+	height: 100vh;
+}
+
+.rightabout{
+	width: 50%;
+	float: right;
+	background-image:linear-gradient(white,black);
+	height: 100vh;
+	margin-bottom: 30px;
+}
+
+.about{
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin-left: 35vh;
+	color:red;
+	margin-top: 10px;
+	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.aboutdetail{
+	color: white;
+	font-size: 35px;
+	margin-top: 10px;
+	font-family:cursive;
+	margin-left: 30px;
+}
+
+.aboutdetail li{
+	margin: 30px;
+}
+
+.projectpage{
+	height: 105vh;
+	width: 100%;
+	margin-top: 90vh;
+}
+
+.projectheading{
+	color: red;
+	text-align: center;
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.parent{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-evenly;
+}
+
+.div1{
+	width: 400px;
+	height: 390px;
+	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.div2{
+	width: 400px;
+	height: 390px;
+	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.div3{
+	width: 400px;
+	height: 390px;
+	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div1 img{
+	width: 400px;
+	height: 350px;
+}
+.div2 img{
+	width: 400px;
+	height: 350px;
+}
+.div3 img{
+	width: 400px;
+	height: 350px;
+}
+
+.parent span{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	margin-left: 50px;
+	color: black;
+}
+
+.contactpage{
+	height:40vh;
+	display: flex;
+	background-image:linear-gradient(white,yellow);
+}
+
+.detail{
+	margin-left: 85vh;
+	font-size: 25px;
+	margin-top: 50px;
+	font-style: italic;
+}
+
+.icons{
+	margin-left: 18vh;
+	margin-top: 2vh;
+	cursor: pointer;
+}
+
+.icons i{
+	margin-left: 10px;
+}
+
+.footer{
+	height: 20vh;
+	background-color: black;
+	color: white;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+  }
+
+ .icons a{
+	color: black;
+  }
+
+  .resume{
+	margin-left: 80px;
+  }
